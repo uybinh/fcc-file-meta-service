@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>FCC Metadata Microservice</title>
+</head>
+
+<body>
+  <div class="container">
+    <main>
+      <h1>FCC Metadata Microservice</h1>
+
+      <form action="/api/upload" method="POST" enctype="multipart/form-data">
+        <fieldset>
+          <legend>File uploader</legend>
+          <div class="field-group">
+            <label for="file_upload">Choose a file to upload:</label>
+            <input id="file_upload" name="upfile" type="file">
+          </div>
+          <button>Submit</button>
+        </fieldset>
+      </form>
+    </main>
+    <footer>by <a href="https://uybinh.com" target="_blank" rel="noopener noreferrer">uybinh.com</a></footer>
+  </div>
+
+</body>
+
+</html>
